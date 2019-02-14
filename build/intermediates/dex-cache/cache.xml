@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.2.0_f4b009f91624204bf8faf9bbe0d41e6b263135d7.jar" />
+    </item>
+    <item
+        jar="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.2.0_743be474be964ec149a9cd6b4ffc2f20dec0d37e.jar" />
+    </item>
+    <item
+        jar="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\exploded-aar\com.android.support\design\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1aa5b025efe97f5006f5be16d6ca67c6c3c0c0d8">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\com.android.support-design-23.2.0_06ff8e49cfe83f754ab5c62f8dafedc03698e4e3.jar" />
+    </item>
+    <item
+        jar="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\internal_impl-23.2.0_3160be00aea8267e899646a0bdf0c42df6ef3296.jar" />
+    </item>
+    <item
+        jar="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d4c936aa8c7d2522c82e3f1829c791d9e367f009">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\com.android.support-recyclerview-v7-23.2.0_75c86619c19d7f75d5ce4f2a6ea4de38f58948e9.jar" />
+    </item>
+    <item
+        jar="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.2.0_5511f8cd93d9668a70d27fa9c8058c7fc01de08b.jar" />
+    </item>
+    <item
+        jar="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\exploded-aar\com.melnykov\floatingactionbutton\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c6ebb7d087d1a30bf84356bd2aecf85309fc024">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\com.melnykov-floatingactionbutton-1.3.0_78ca6d01ca879e398d4b0131313f76211847c3ad.jar" />
+    </item>
+    <item
+        jar="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.2.0_bb00ad1740d4258f368df27dc3e9708ccaddf637.jar" />
+    </item>
+    <item
+        jar="D:\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\support-annotations-23.2.0_0ac6a933ccde1a939f417791c65bceecd6352f80.jar" />
+    </item>
+    <item
+        jar="C:\Users\Utene\.gradle\caches\modules-2\files-2.1\com.nineoldandroids\library\2.4.0\e9b63380f3a242dbdbf103a2355ad7e43bad17cb\library-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\library-2.4.0_ec217a3f0e07cc2496f0fbb3ae645f1d32ac3c8d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Utene\.gradle\caches\modules-2\files-2.1\com.udojava\EvalEx\1.1\43f5c0809fc2449ca81bdadf7813d76ac9f365bf\EvalEx-1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="43f5c0809fc2449ca81bdadf7813d76ac9f365bf">
+        <dex dex="D:\Apps\Play Store Apps\CustomCalculator\app\build\intermediates\pre-dexed\release\EvalEx-1.1_25e60fc3e7f3829a0da9bdf78e7b2e2a471f99ae.jar" />
+    </item>
+
+</items>
