@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/major_container"
+    style="@style/LgTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffffc"
+    android:padding="@dimen/activity_margin"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/lg_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|end"
+            android:hint="@string/n0"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_edit_land"
+            android:textIsSelectable="true" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioGroup
+                android:id="@+id/lg_radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/lg_deg"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/lg_deg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="@string/deg"
+                    android:textSize="@dimen/text_land"/>
+
+                <RadioButton
+                    android:id="@+id/lg_rad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="@string/rad"
+                    android:textSize="@dimen/text_land"/>
+
+                <RadioButton
+                    android:id="@+id/lg_grad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:checked="false"
+                    android:text="@string/grad"
+                    android:textSize="@dimen/text_land"/>
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/lg_solution"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center|end"
+                android:maxLines="1"
+                android:textColor="@color/lg_violet"
+                android:textSize="@dimen/text_solution_land" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5"
+        android:layout_marginTop="@dimen/margin_left2_land">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/lg_squared"
+                style="@style/Lg.Numbers.Land"
+                android:text="@string/squared" />
+
+            <Button
+                android:id="@+id/lg_cubed"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/cubed" />
+
+            <Button
+                android:id="@+id/lg_power"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/power" />
+
+            <Button
+                android:id="@+id/lg_raised_to_minus1"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/raised_to_minus1" />
+
+            <Button
+                android:id="@+id/lg_ac"
+                android:layout_marginLeft="@dimen/margin_left2_land"
+                android:layout_marginStart="@dimen/margin_left2_land"
+                android:text="@string/ac"
+                style="@style/Lg.Special.Violet.Land"/>
+
+            <Button
+                android:id="@+id/lg_extra"
+                style="@style/Lg.Symbols.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/percentage" />
+
+            <Button
+                android:id="@+id/lg_division"
+                style="@style/Lg.Symbols.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/division" />
+
+            <ImageButton
+                android:id="@+id/lg_backspace"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:src="@drawable/backspace_white"
+                style="@style/Lg.Special.Violet.Land"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/margin_left_land"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/lg_root"
+                style="@style/Lg.Numbers.Land"
+                android:text="@string/root" />
+
+            <Button
+                android:id="@+id/lg_cubed_root"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/cubed_root" />
+
+            <Button
+                android:id="@+id/lg_random"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/random" />
+
+            <Button
+                android:id="@+id/lg_factorial"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/factorial" />
+
+            <Button
+                android:id="@+id/lg_n7"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left2_land"
+                android:layout_marginStart="@dimen/margin_left2_land"
+                android:text="@string/n7" />
+
+            <Button
+                android:id="@+id/lg_n8"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/n8" />
+
+            <Button
+                android:id="@+id/lg_n9"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/n9" />
+
+            <Button
+                android:id="@+id/lg_multiplier"
+                style="@style/Lg.Symbols.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/multiplier" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/margin_left_land"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/lg_sin"
+                style="@style/Lg.Numbers.Land"
+                android:text="@string/sin" />
+
+            <Button
+                android:id="@+id/lg_cos"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/cos" />
+
+            <Button
+                android:id="@+id/lg_tan"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/tan" />
+
+            <Button
+                android:id="@+id/lg_exp"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/exp" />
+
+            <Button
+                android:id="@+id/lg_n4"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left2_land"
+                android:layout_marginStart="@dimen/margin_left2_land"
+                android:text="@string/n4" />
+
+            <Button
+                android:id="@+id/lg_n5"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/n5" />
+
+            <Button
+                android:id="@+id/lg_n6"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/n6" />
+
+            <Button
+                android:id="@+id/lg_minus"
+                style="@style/Lg.Symbols.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/minus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/margin_left_land"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/lg_sinh"
+                style="@style/Lg.Numbers.Land"
+                android:text="@string/sinh" />
+
+            <Button
+                android:id="@+id/lg_cosh"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/cosh" />
+
+            <Button
+                android:id="@+id/lg_tanh"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/tanh" />
+
+            <Button
+                android:id="@+id/lg_log"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/log" />
+
+            <Button
+                android:id="@+id/lg_n1"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left2_land"
+                android:layout_marginStart="@dimen/margin_left2_land"
+                android:text="@string/n1" />
+
+            <Button
+                android:id="@+id/lg_n2"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/n2" />
+
+            <Button
+                android:id="@+id/lg_n3"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/n3" />
+
+            <Button
+                android:id="@+id/lg_plus"
+                style="@style/Lg.Symbols.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/plus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="@dimen/margin_left_land"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/lg_pi"
+                style="@style/Lg.Numbers.Land"
+                android:text="@string/pi"
+                android:textSize="@dimen/text_land" />
+
+            <Button
+                android:id="@+id/lg_ans"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/ans" />
+
+            <Button
+                android:id="@+id/lg_e"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/e" />
+
+            <Button
+                android:id="@+id/lg_ln"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/ln" />
+
+            <Button
+                android:id="@+id/lg_n0"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left2_land"
+                android:layout_marginStart="@dimen/margin_left2_land"
+                android:text="@string/n0" />
+
+            <Button
+                android:id="@+id/lg_comma"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/comma" />
+
+            <Button
+                android:id="@+id/lg_parenthesis"
+                style="@style/Lg.Numbers.Land"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/parenthesis" />
+
+            <Button
+                android:id="@+id/lg_equal"
+                android:layout_marginLeft="@dimen/margin_left_land"
+                android:layout_marginStart="@dimen/margin_left_land"
+                android:text="@string/equal"
+                style="@style/Lg.Special.Violet.Land"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

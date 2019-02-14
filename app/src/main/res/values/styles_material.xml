@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Material" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:longClickable">true</item>
+        <item name="android:textSize">@dimen/text_edit</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@color/mat_white</item>
+    </style>
+
+    <style name="Material.Grey">
+        <item name="android:background">@drawable/mat_grey</item>
+    </style>
+
+    <style name="Material.Grey.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Material.Darker">
+        <item name="android:background">@drawable/mat_darker</item>
+    </style>
+
+    <style name="Material.Darker.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+</resources>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/LgTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffffc"
+    android:padding="@dimen/activity_margin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/container"
+        android:weightSum="8"
+        android:orientation="vertical"
+        android:id="@+id/editing">
+
+        <TextView
+            android:id="@+id/lg_edit"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center|end"
+            android:hint="@string/n0"
+            android:textColor="#ff000000"
+            android:textSize="@dimen/text_edit"
+            android:layout_weight="5"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/lg_solution"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center|end"
+            android:maxLines="1"
+            android:textColor="@color/lg_green"
+            android:textSize="@dimen/text_solution"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/lg_ac"
+                style="@style/Lg.Special.Green"
+                android:text="@string/ac"/>
+
+            <Button
+                android:id="@+id/lg_extra"
+                style="@style/Lg.Symbols"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/percentage" />
+
+            <Button
+                android:id="@+id/lg_division"
+                style="@style/Lg.Symbols"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/division" />
+
+            <ImageButton
+                android:id="@+id/lg_backspace"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:src="@drawable/backspace_white"
+                style="@style/Lg.Special.Green"
+                android:layout_height="match_parent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/l1"
+            android:layout_marginTop="@dimen/margin_top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/lg_n7"
+                style="@style/Lg.Numbers"
+                android:text="@string/n7" />
+
+            <Button
+                android:id="@+id/lg_n8"
+                style="@style/Lg.Numbers"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/n8" />
+
+            <Button
+                android:id="@+id/lg_n9"
+                style="@style/Lg.Numbers"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/n9" />
+
+            <Button
+                android:id="@+id/lg_multiplier"
+                style="@style/Lg.Symbols"
+                android:text="@string/multiplier"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/l2"
+            android:layout_marginTop="@dimen/margin_top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/lg_n4"
+                style="@style/Lg.Numbers"
+                android:text="@string/n4" />
+
+            <Button
+                android:id="@+id/lg_n5"
+                style="@style/Lg.Numbers"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/n5" />
+
+            <Button
+                android:id="@+id/lg_n6"
+                style="@style/Lg.Numbers"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/n6" />
+
+            <Button
+                android:id="@+id/lg_minus"
+                style="@style/Lg.Symbols"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/minus" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/l3"
+            android:layout_marginTop="@dimen/margin_top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/lg_n1"
+                style="@style/Lg.Numbers"
+                android:text="@string/n1" />
+
+            <Button
+                android:id="@+id/lg_n2"
+                style="@style/Lg.Numbers"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/n2" />
+
+            <Button
+                android:id="@+id/lg_n3"
+                style="@style/Lg.Numbers"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/n3" />
+
+            <Button
+                android:id="@+id/lg_plus"
+                style="@style/Lg.Symbols"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/plus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/l4"
+            android:layout_marginTop="@dimen/margin_top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/lg_n0"
+                style="@style/Lg.Numbers"
+                android:text="@string/n0" />
+
+            <Button
+                android:id="@+id/lg_comma"
+                style="@style/Lg.Numbers"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/comma" />
+
+            <Button
+                android:id="@+id/lg_parenthesis"
+                style="@style/Lg.Numbers"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/parenthesis" />
+
+            <Button
+                android:id="@+id/lg_equal"
+                android:layout_marginLeft="@dimen/margin_left"
+                android:layout_marginStart="@dimen/margin_left"
+                android:text="@string/equal"
+                style="@style/Lg.Special.Green"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

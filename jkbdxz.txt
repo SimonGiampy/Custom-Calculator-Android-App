@@ -1,0 +1,507 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/LgTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fffffc"
+    tools:context="simon.customcalculator.LgActivity"
+    android:padding="@dimen/activity_margin"
+    android:id="@+id/major_container"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/lg_edit"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:gravity="center|end"
+        android:hint="@string/n0"
+        android:textColor="#ff000000"
+        android:textSize="@dimen/margin_left"
+        android:layout_weight="4" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:id="@+id/second_row"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:baselineAligned="true"
+            android:id="@+id/lg_radioGroup"
+            android:checkedButton="@+id/lg_deg">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/deg"
+                android:checked="false"
+                android:id="@+id/lg_deg" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/rad"
+                android:checked="false"
+                android:id="@+id/lg_rad" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="@string/grad"
+                android:checked="false"
+                android:id="@+id/lg_grad" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/lg_solution"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:maxLines="1"
+            android:textColor="@color/ac_background"
+            android:textSize="@dimen/solution_text_land" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="22"
+        android:id="@+id/actions"
+        android:orientation="horizontal"
+        android:baselineAligned="true">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/left_container"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/squared"
+                    android:id="@+id/lg_squared"
+                    android:textSize="15sp" />
+
+                <Button
+                    android:text="@string/cubed"
+                    android:id="@+id/lg_cubed"
+                    style="@style/LgTheme.Button.Land"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/power"
+                    android:id="@+id/lg_power"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <Button
+                    android:text="@string/raised_to_minus1"
+                    android:id="@+id/lg_raised_to_minus1"
+                    style="@style/LgTheme.Button.Land"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout2"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:weightSum="4"
+                android:baselineAligned="false">
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/root"
+                    android:id="@+id/lg_root"
+                    android:textSize="15sp"/>
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:id="@+id/lg_cubed_root"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/cubed_root"/>
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:id="@+id/lg_random"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/random"/>
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/factorial"
+                    android:id="@+id/lg_factorial"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout3"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/sin"
+                    android:id="@+id/lg_sin"
+                    android:textSize="15sp" />
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/cos"
+                    android:id="@+id/lg_cos"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    style="@style/LgTheme.Button"
+                    android:text="@string/tan"
+                    android:id="@+id/lg_tan"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/exp"
+                    android:id="@+id/lg_exp"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout4"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/sinh"
+                    android:id="@+id/lg_sinh"
+                    android:textSize="15sp" />
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/cosh"
+                    android:id="@+id/lg_cosh"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/tanh"
+                    android:id="@+id/lg_tanh"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"/>
+
+                <Button
+                    style="@style/LgTheme.Button.Land"
+                    android:text="@string/log"
+                    android:id="@+id/lg_log"
+                    android:textSize="15sp"
+                    android:layout_marginLeft="5dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/linearLayout5"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/lg_pi"
+                    android:text="@string/pi"
+                    android:textSize="15sp"
+                    style="@style/LgTheme.Button.Land" />
+
+                <Button
+                    android:text="@string/ans"
+                    android:id="@+id/lg_ans"
+                    android:textSize="15sp"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_marginLeft="5dp"
+                    android:onClick="ans" />
+
+                <Button
+                    android:text="@string/e"
+                    android:id="@+id/lg_e"
+                    android:textSize="15sp"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:text="@string/ln"
+                    android:id="@+id/lg_ln"
+                    android:textSize="15sp"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_marginLeft="5dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="@dimen/margin_left"
+            android:id="@+id/right_container"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/lg_ac"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/lg_acbutton_selector"
+                    android:longClickable="true"
+                    android:text="@string/ac"
+                    android:textColor="#ffffffff"
+                    android:textSize="@dimen/text_land" />
+
+                <Button
+                    android:id="@+id/lg_extra"
+                    style="@style/LgTheme.Signs.Land"
+                    android:layout_weight="1"
+                    android:text="@string/percentage"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_division"
+                    style="@style/LgTheme.Signs.Land"
+                    android:layout_weight="1"
+                    android:text="@string/division"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_backspace"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/lg_backspacebutton_selector"
+                    android:longClickable="true"
+                    android:textSize="@dimen/text_land"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/lg_n7"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n7"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/lg_n8"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n8"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_n9"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n9"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_multiplier"
+                    style="@style/LgTheme.Signs.Land"
+                    android:text="@string/multiplier"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l3"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/lg_n4"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n4"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/lg_n5"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n5"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_n6"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n6"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_minus"
+                    style="@style/LgTheme.Signs.Land"
+                    android:layout_weight="1"
+                    android:text="@string/minus"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l4"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/lg_n1"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n1"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/lg_n2"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n2"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_n3"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n3"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_plus"
+                    style="@style/LgTheme.Signs.Land"
+                    android:layout_weight="1"
+                    android:text="@string/plus"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/l5"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="horizontal"
+                android:layout_weight="1"
+                android:layout_marginTop="5dp"
+                android:weightSum="4">
+
+                <Button
+                    android:id="@+id/lg_n0"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/n0"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:id="@+id/lg_comma"
+                    style="@style/LgTheme.Button.Land"
+                    android:layout_weight="1"
+                    android:text="@string/comma"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_parenthesis"
+                    style="@style/LgTheme.Signs.Land"
+                    android:layout_weight="1"
+                    android:text="@string/parenthesis"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp" />
+
+                <Button
+                    android:id="@+id/lg_equal"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/lg_equalbutton_selector"
+                    android:longClickable="true"
+                    android:text="@string/equal"
+                    android:textColor="#ffffffff"
+                    android:textSize="@dimen/text_land"
+                    android:layout_marginLeft="5dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

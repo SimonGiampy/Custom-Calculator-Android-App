@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Calculator</string>
+    <string name="lg_theme">LG Theme</string>
+    <string name="action_theme">Theme</string>
+
+    <string name="ok">OK</string>
+    <string name="max_number">max number</string>
+    <string name="min_number">minimum number</string>
+    <string name="random_numbers">Write the numbers within which the random number will be generated</string>
+    <string name="version">Custom Calculator, version %s, author: Simon Giampy</string>
+
+    <string name="n0" translatable="false">0</string>
+    <string name="n1" translatable="false">1</string>
+    <string name="n2" translatable="false">2</string>
+    <string name="n3" translatable="false">3</string>
+    <string name="n4" translatable="false">4</string>
+    <string name="n5" translatable="false">5</string>
+    <string name="n6" translatable="false">6</string>
+    <string name="n7" translatable="false">7</string>
+    <string name="n8" translatable="false">8</string>
+    <string name="n9" translatable="false">9</string>
+    <string name="ac" translatable="false">AC</string>
+    <string name="comma" translatable="false">,</string>
+    <string name="percentage" translatable="false">%</string>
+    <string name="division" translatable="false">÷</string>
+    <string name="multiplier" translatable="false">×</string>
+    <string name="minus" translatable="false">−</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="equal" translatable="false">=</string>
+    <string name="parenthesis" translatable="false">( )</string>
+    <string name="squared" translatable="false">X&lt;sup&gt;2&lt;sup&gt;</string>
+    <string name="cubed" translatable="false">X&lt;sup&gt;3&lt;/sup&gt;</string>
+    <string name="power" translatable="false">X&lt;sup&gt;n&lt;/sup&gt;</string>
+    <string name="raised_to_minus1" translatable="false">x&lt;sup&gt;-1&lt;/sup&gt;</string>
+    <string name="root" translatable="false">√</string>
+    <string name="cubed_root" translatable="false">&lt;sup&gt;3&lt;/sup&gt;√</string>
+    <string name="random" translatable="false">random</string>
+    <string name="sin" translatable="false">sin</string>
+    <string name="cos" translatable="false">cos</string>
+    <string name="tan" translatable="false">tan</string>
+    <string name="sinh" translatable="false">sinh</string>
+    <string name="cosh" translatable="false">cosh</string>
+    <string name="tanh" translatable="false">tanh</string>
+    <string name="pi" translatable="false">π</string>
+    <string name="log" translatable="false">log</string>
+    <string name="ln" translatable="false">ln</string>
+    <string name="e" translatable="false">e</string>
+    <string name="factorial" translatable="false">x!</string>
+    <string name="ans" translatable="false">Ans</string>
+    <string name="exp" translatable="false">exp</string>
+    <string name="deg" translatable="false">DEG</string>
+    <string name="rad" translatable="false">RAD</string>
+    <string name="grad" translatable="false">GRAD</string>
+    <string name="fact_too_big">The factorial number is too big!</string>
+
+    <string name="circular_orange">Circular Orange</string>
+    <string name="circular_violet">Circular Violet</string>
+    <string name="circular_green">Circular Green</string>
+    <string name="apple">Apple</string>
+    <string name="flat_red">Flat Red</string>
+    <string name="flat_blue">Flat Blue</string>
+    <string name="flat_green">Flat Green</string>
+    <string name="material">Material Dark</string>
+    <string name="co_details">Circular buttons with orange as prevalent color</string>
+    <string name="cv_details">Circular buttons with violet as prevalent color</string>
+    <string name="cg_details">Circular buttons with green as prevalent color</string>
+    <string name="apple_details">Theme inspired to the iPhone calculator</string>
+    <string name="flatred_details">Flat theme with red as main color</string>
+    <string name="flatblue_details">Flat theme with blue as main color</string>
+    <string name="flatgreen_details">Flat theme with green as main color</string>
+    <string name="material_details">Theme inspired to the dark colors of the Material Design</string>
+
+
+</resources>

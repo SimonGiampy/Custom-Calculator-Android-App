@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="false">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/apple_symbols" />
+                    <stroke android:width="1px" android:color="@color/apple_black" />
+                </shape>
+            </item>
+            <item android:bottom="5dp" android:drawable="@drawable/backspace_black" android:left="10dp" android:right="10dp" android:top="5dp" />
+        </layer-list>
+    </item>
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/apple_symbols_pressed" />
+                    <stroke android:width="1px" android:color="@color/apple_black" />
+                </shape>
+            </item>
+            <item android:bottom="5dp" android:drawable="@drawable/backspace_black" android:left="10dp" android:right="10dp" android:top="5dp" />
+        </layer-list>
+    </item>
+</selector>

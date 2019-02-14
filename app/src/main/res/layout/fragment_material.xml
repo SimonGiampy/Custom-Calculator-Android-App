@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    style="@style/MaterialTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mat_blue">
+
+    <LinearLayout
+        android:id="@+id/editing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin"
+        android:weightSum="8">
+
+        <TextView
+            android:id="@+id/mat_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_edit"
+            android:layout_weight="5"
+            android:gravity="center|end"
+            android:hint="@string/n0"
+            android:textColor="@color/mat_white"
+            android:textColorHint="@color/mat_white_pressed"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/text_edit" />
+
+        <TextView
+            android:id="@+id/mat_solution"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center|end"
+            android:maxLines="1"
+            android:textColor="@color/mat_white_pressed"
+            android:textSize="@dimen/text_solution" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mat_ac"
+                    style="@style/Material.Grey"
+                    android:text="@string/ac" />
+
+                <Button
+                    android:id="@+id/mat_extra"
+                    style="@style/Material.Grey"
+                    android:text="@string/percentage" />
+
+                <ImageButton
+                    android:id="@+id/mat_backspace"
+                    style="@style/Material.Grey"
+                    android:src="@drawable/backspace_white"/>
+
+                <Button
+                    android:id="@+id/mat_division"
+                    style="@style/Material.Darker"
+                    android:text="@string/division" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="8dp"
+                android:background="@drawable/shadow" />
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mat_n7"
+                style="@style/Material.Grey"
+                android:text="@string/n7" />
+
+            <Button
+                android:id="@+id/mat_n8"
+                style="@style/Material.Grey"
+                android:text="@string/n8" />
+
+            <Button
+                android:id="@+id/mat_n9"
+                style="@style/Material.Grey"
+                android:text="@string/n9" />
+
+            <Button
+                android:id="@+id/mat_multiplier"
+                style="@style/Material.Darker"
+                android:text="@string/multiplier" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mat_n4"
+                style="@style/Material.Grey"
+                android:text="@string/n4" />
+
+            <Button
+                android:id="@+id/mat_n5"
+                style="@style/Material.Grey"
+                android:text="@string/n5" />
+
+            <Button
+                android:id="@+id/mat_n6"
+                style="@style/Material.Grey"
+                android:text="@string/n6" />
+
+            <Button
+                android:id="@+id/mat_minus"
+                style="@style/Material.Darker"
+                android:text="@string/minus" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mat_n1"
+                style="@style/Material.Grey"
+                android:text="@string/n1" />
+
+            <Button
+                android:id="@+id/mat_n2"
+                style="@style/Material.Grey"
+                android:text="@string/n2" />
+
+            <Button
+                android:id="@+id/mat_n3"
+                style="@style/Material.Grey"
+                android:text="@string/n3" />
+
+            <Button
+                android:id="@+id/mat_plus"
+                style="@style/Material.Darker"
+                android:text="@string/plus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/mat_n0"
+                style="@style/Material.Grey"
+                android:text="@string/n0" />
+
+            <Button
+                android:id="@+id/mat_comma"
+                style="@style/Material.Grey"
+                android:text="@string/comma" />
+
+            <Button
+                android:id="@+id/mat_parenthesis"
+                style="@style/Material.Grey"
+                android:text="@string/parenthesis" />
+
+
+            <FrameLayout style="@style/Material.Darker">
+
+                <com.melnykov.fab.FloatingActionButton
+                    android:id="@+id/mat_equal"
+                    android:layout_width="56dp"
+                    android:layout_height="56dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/text"
+                    fab:fab_colorNormal="@color/mat_blue"
+                    fab:fab_colorPressed="@color/mat_blue_darker"
+                    fab:fab_colorRipple="@color/mat_blue_ripple"/>
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

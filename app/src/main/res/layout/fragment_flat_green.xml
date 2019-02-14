@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FlatTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/flat_green"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/editing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/activity_margin"
+        android:weightSum="8">
+
+        <TextView
+            android:id="@+id/flat_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_edit"
+            android:layout_weight="5"
+            android:gravity="center|end"
+            android:hint="@string/n0"
+            android:textColor="@color/flat_white"
+            android:textColorHint="@color/flat_white_pressed"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/text_edit" />
+
+        <TextView
+            android:id="@+id/flat_solution"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:gravity="center|end"
+            android:maxLines="1"
+            android:textColor="@color/flat_white_pressed"
+            android:textSize="@dimen/text_solution" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:text="@string/ac"
+                android:id="@+id/flat_ac"
+                style="@style/Flat.Green.Colored" />
+
+            <Button
+                android:id="@+id/flat_extra"
+                android:text="@string/percentage"
+                style="@style/Flat.Green.Colored" />
+
+            <ImageButton
+                android:id="@+id/flat_backspace"
+                style="@style/Flat.Green.Colored"
+                android:src="@drawable/backspace_green"/>
+
+            <Button
+                android:id="@+id/flat_division"
+                style="@style/Flat.Green.Colored"
+                android:text="@string/division" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/flat_n7"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n7" />
+
+            <Button
+                android:id="@+id/flat_n8"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n8" />
+
+            <Button
+                android:id="@+id/flat_n9"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n9" />
+
+            <Button
+                android:id="@+id/flat_multiplier"
+                style="@style/Flat.Green.Colored"
+                android:text="@string/multiplier" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/flat_n4"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n4" />
+
+            <Button
+                android:id="@+id/flat_n5"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n5" />
+
+            <Button
+                android:id="@+id/flat_n6"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n6" />
+
+            <Button
+                android:id="@+id/flat_minus"
+                style="@style/Flat.Green.Colored"
+                android:text="@string/minus" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/flat_n1"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n1" />
+
+            <Button
+                android:id="@+id/flat_n2"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n2" />
+
+            <Button
+                android:id="@+id/flat_n3"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n3" />
+
+            <Button
+                android:id="@+id/flat_plus"
+                style="@style/Flat.Green.Colored"
+                android:text="@string/plus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/flat_n0"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/n0" />
+
+            <Button
+                android:id="@+id/flat_comma"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/comma" />
+
+            <Button
+                android:id="@+id/flat_parenthesis"
+                style="@style/Flat.Green.Standard"
+                android:text="@string/parenthesis" />
+
+            <Button
+                android:id="@+id/flat_equal"
+                style="@style/Flat.Green.Colored"
+                android:text="@string/equal" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SettingsActivity">
+
+    <CheckBoxPreference
+        android:id="@+id/thousands_separator"
+        android:defaultValue="true"
+        android:key="ENABLE_THOUSANDS"
+        android:summary="@string/thousands_summary"
+        android:title="@string/thousands_separator" />
+
+    <ListPreference
+        android:defaultValue="DE"
+        android:dialogTitle="@string/style_list"
+        android:entries="@array/thousands_separator_list_entries"
+        android:entryValues="@array/thousands_separator_list_values"
+        android:key="THOUSANDS_STYLE"
+        android:summary="@string/thousands_type"
+        android:title="@string/thousands_style" />
+
+    <CheckBoxPreference
+        android:id="@+id/square_root"
+        android:defaultValue="false"
+        android:key="SQRT"
+        android:summary="@string/enable_sqrt"
+        android:title="@string/sqrt" />
+    <Preference
+        android:key="INFO"
+        android:title="@string/info" />
+
+</PreferenceScreen>

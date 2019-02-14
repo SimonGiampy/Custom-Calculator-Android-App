@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcolatrice</string>
+    <string name="lg_theme">Tema LG</string>
+    <string name="action_theme">Tema</string>
+
+    <string name="ok">OK</string>
+    <string name="max_number">numero massimo</string>
+    <string name="min_number">numero minimo</string>
+    <string name="random_numbers">Scrivi i numeri tra cui sarà compreso il numero generato</string>
+    <string name="fact_too_big">Il numero fattoriale è troppo grande!</string>
+
+    <string name="circular_orange">Arancione Circolare</string>
+    <string name="circular_violet">Viola Circolare</string>
+    <string name="circular_green">Verde Circolare</string>
+    <string name="apple">Apple</string>
+    <string name="flat_red">Flat Rosso</string>
+    <string name="flat_blue">Flat Blu</string>
+    <string name="flat_green">Flat Verde</string>
+    <string name="material">Material Scuro</string>
+    <string name="co_details">Pulsanti circolari con l\'arancione come colore prevalente</string>
+    <string name="cv_details">Pulsanti circolari con il viola come colore prevalente</string>
+    <string name="cg_details">Pulsanti circolari con il verde come colore prevalente</string>
+    <string name="apple_details">Tema ispirato alla calcolatrice dell\'iPhone</string>
+    <string name="flatred_details">Tema flat con il rosso come colore principale</string>
+    <string name="flatblue_details">Tema flat con il blu come colore principale</string>
+    <string name="flatgreen_details">Tema flat con il verde come colore principale</string>
+    <string name="material_details">Tema ispirato ai colori scuri del Material Design</string>
+
+</resources>

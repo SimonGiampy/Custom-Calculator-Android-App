@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="lg_number">#fafafa</color>
+    <color name="lg_number_stroke">#9c9c9c</color>
+    <color name="lg_number_pressed">#dddddd</color>
+    <color name="lg_sign">#e0e0e0</color>
+    <color name="lg_sign_stroke">#b5b5b5</color>
+    <color name="lg_sign_pressed">#bfbfbf</color>
+    <color name="lg_text">#fcfcfc</color>
+
+    <color name="lg_orange">#ff6407</color>
+    <color name="lg_orange_stroke">#b64b0b</color>
+    <color name="lg_orange_pressed">#c95007</color>
+    <color name="lg_primary_orange">#ff5722</color>
+    <color name="lg_dark_orange">#D84315</color>
+    <color name="lg_accent_orange">#dd2c00</color>
+
+    <color name="lg_violet">#512da8</color>
+    <color name="lg_violet_stroke">#311b92</color>
+    <color name="lg_violet_pressed">#46267e</color>
+    <color name="lg_primary_violet">#512da8</color>
+    <color name="lg_dark_violet">#3d1d9c</color>
+    <color name="lg_accent_violet">#6200ea</color>
+
+    <color name="lg_green">#8bc34a</color>
+    <color name="lg_green_stroke">#408426</color>
+    <color name="lg_green_pressed">#558b2f</color>
+    <color name="lg_primary_green">#7aab41</color>
+    <color name="lg_dark_green">#558b2f</color>
+    <color name="lg_accent_green">#64dd17</color>
+
+
+</resources>

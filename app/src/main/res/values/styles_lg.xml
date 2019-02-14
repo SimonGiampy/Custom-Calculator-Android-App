@@ -1,0 +1,58 @@
+<resources>
+
+    <style name="Lg" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_edit</item>
+        <item name="android:longClickable">true</item>
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Lg.Numbers">
+        <item name="android:background">@drawable/lg_numbers</item>
+    </style>
+
+    <style name="Lg.Numbers.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Lg.Symbols">
+        <item name="android:background">@drawable/lg_symbols</item>
+    </style>
+
+    <style name="Lg.Symbols.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Lg.Special">
+        <item name="android:textColor">@color/lg_text</item>
+    </style>
+
+    <style name="Lg.Special.Orange">
+        <item name="android:background">@drawable/lg_special_orange</item>
+    </style>
+
+    <style name="Lg.Special.Orange.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Lg.Special.Violet">
+        <item name="android:background">@drawable/lg_special_violet</item>
+    </style>
+
+    <style name="Lg.Special.Violet.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Lg.Special.Green">
+        <item name="android:background">@drawable/lg_special_green</item>
+    </style>
+
+    <style name="Lg.Special.Green.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+
+</resources>

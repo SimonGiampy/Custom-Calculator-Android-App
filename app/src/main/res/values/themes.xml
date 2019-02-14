@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+    </style>
+
+    <style name="WithToolbar" parent="Theme.AppCompat.Light.DarkActionBar">
+
+    </style>
+
+    <style name="LgTheme" parent="Theme.AppCompat.Light">
+
+    </style>
+
+    <style name="LgTheme.Orange">
+        <item name="colorAccent">@color/lg_accent_orange</item>
+    </style>
+
+    <style name="LgTheme.Violet">
+        <item name="colorAccent">@color/lg_accent_violet</item>
+    </style>
+
+    <style name="LgTheme.Green">
+        <item name="colorAccent">@color/lg_accent_green</item>
+    </style>
+
+    <style name="AppleTheme" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/apple_accent</item>
+    </style>
+
+    <style name="FlatTheme" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/flat_accent</item>
+    </style>
+
+    <style name="MaterialTheme" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/flat_accent</item>
+    </style>
+</resources>

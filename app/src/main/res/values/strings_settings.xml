@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="thousands_separator_list_entries">
+        <item>US -GB style: ###,###.##</item>
+        <item>German style: ###.###,##</item>
+        <item>French style: ### ###,##</item>
+    </string-array>
+
+    <string-array name="thousands_separator_list_values">
+        <item>US</item>
+        <item>DE</item>
+        <item>FR</item>
+    </string-array>
+
+    <string name="digits_limit">The number of the digits exceeds the limit</string>
+    <string name="too_long">Number too long!</string>
+    <string name="random_absent">Compile all the fields</string>
+    <string name="thousands_separator">Thousands separator</string>
+    <string name="thousands_summary">Enables thousands format for the numbers</string>
+    <string name="thousands_style">Thousands separation style</string>
+    <string name="thousands_type">Select the type of the thousands separation (character "#" stays for a digit)</string>
+    <string name="sqrt">Square Root</string>
+    <string name="enable_sqrt">Enable square root button instead of the percentage button in the vertical calculator</string>
+    <string name="info">Info</string>
+    <string name="about">About the App</string>
+    <string name="style_list">Style</string>
+    <string name="thousands_style_de">German format style selected (###.###,###)</string>
+    <string name="thousands_style_us">English format style selected (###,###.###)</string>
+    <string name="thousands_style_fr">French format style selected (### ###,###)</string>
+    <string name="pref_disabled">Thousands format is disabled</string>
+</resources>

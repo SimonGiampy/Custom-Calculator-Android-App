@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/AppleTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/apple_black"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="8"
+        android:orientation="vertical"
+        android:id="@+id/editing"
+        android:padding="@dimen/activity_margin">
+
+        <TextView
+            android:id="@+id/apple_edit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_edit"
+            android:gravity="center|end"
+            android:hint="@string/n0"
+            android:textColor="@color/apple_sign"
+            android:textSize="@dimen/text_edit"
+            android:layout_weight="5"
+            android:textIsSelectable="true"
+            android:textColorHint="@color/apple_sign_pressed"/>
+
+        <TextView
+            android:id="@+id/apple_solution"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center|end"
+            android:maxLines="1"
+            android:textColor="@color/apple_numbers"
+            android:textSize="@dimen/text_solution"
+            android:layout_weight="3"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="5">
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/apple_ac"
+                style="@style/AppleTheme.Symbols"
+                android:text="@string/ac" />
+
+            <Button
+                android:id="@+id/apple_extra"
+                style="@style/AppleTheme.Symbols"
+                android:text="@string/percentage" />
+
+            <ImageButton
+                android:id="@+id/apple_backspace"
+                style="@style/AppleTheme.Symbols"
+                android:src="@drawable/backspace_black"/>
+
+            <Button
+                android:id="@+id/apple_division"
+                style="@style/AppleTheme.Signs"
+                android:text="@string/division" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/apple_n7"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n7" />
+
+            <Button
+                android:id="@+id/apple_n8"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n8" />
+
+            <Button
+                android:id="@+id/apple_n9"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n9" />
+
+            <Button
+                android:id="@+id/apple_multiplier"
+                style="@style/AppleTheme.Signs"
+                android:text="@string/multiplier"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/apple_n4"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n4" />
+
+            <Button
+                android:id="@+id/apple_n5"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n5" />
+
+            <Button
+                android:id="@+id/apple_n6"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n6" />
+
+            <Button
+                android:id="@+id/apple_minus"
+                style="@style/AppleTheme.Signs"
+                android:text="@string/minus" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/apple_n1"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n1" />
+
+            <Button
+                android:id="@+id/apple_n2"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n2" />
+
+            <Button
+                android:id="@+id/apple_n3"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n3" />
+
+            <Button
+                android:id="@+id/apple_plus"
+                style="@style/AppleTheme.Signs"
+                android:text="@string/plus" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/l5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+
+            <Button
+                android:id="@+id/apple_n0"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/n0" />
+
+            <Button
+                android:id="@+id/apple_comma"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/comma" />
+
+            <Button
+                android:id="@+id/apple_parenthesis"
+                style="@style/AppleTheme.Numbers"
+                android:text="@string/parenthesis" />
+
+            <Button
+                android:id="@+id/apple_equal"
+                style="@style/AppleTheme.Signs"
+                android:text="@string/equal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

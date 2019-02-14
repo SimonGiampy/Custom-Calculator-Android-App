@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="flat_white">#eceff1</color>
+    <color name="flat_white_pressed">#dbdcde</color>
+    <color name="flat_red">#b71c1c</color>
+    <color name="flat_red_pressed">#90b71c1c</color>
+    <color name="flat_blue">#2196f3</color>
+    <color name="flat_blue_pressed">#902196f3</color>
+    <color name="flat_green">#20bf55</color>
+    <color name="flat_green_pressed">#9020bf55</color>
+    <color name="flat_dark">#272932</color>
+
+    <color name="flat_primary_red">@color/flat_red</color>
+    <color name="flat_primarydark_red">#7e1212</color>
+    <color name="flat_primary_blue">@color/flat_blue</color>
+    <color name="flat_primarydark_blue">#1565c0</color>
+    <color name="flat_primary_green">@color/flat_green</color>
+    <color name="flat_primarydark_green">#15893c</color>
+    <color name="flat_accent">#e0e0e0</color>
+
+</resources>

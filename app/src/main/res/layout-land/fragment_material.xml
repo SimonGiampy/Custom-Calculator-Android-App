@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/major_container"
+    style="@style/MaterialTheme"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mat_blue"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/activity_margin"
+        android:paddingLeft="@dimen/activity_margin"
+        android:paddingRight="@dimen/activity_margin"
+        android:paddingStart="@dimen/activity_margin"
+        android:paddingTop="@dimen/activity_margin">
+
+        <TextView
+            android:id="@+id/mat_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|end"
+            android:hint="@string/n0"
+            android:textColor="@color/mat_white"
+            android:textColorHint="@color/mat_white_pressed"
+            android:textIsSelectable="true"
+            android:textSize="@dimen/text_edit_land" />
+
+        <LinearLayout
+            android:id="@+id/mat_radios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/margin_top">
+
+            <RadioGroup
+                android:id="@+id/mat_radioGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checkedButton="@+id/mat_deg"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/mat_deg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/deg"
+                    android:textColor="@color/mat_white"
+                    android:textSize="@dimen/text_land" />
+
+                <RadioButton
+                    android:id="@+id/mat_rad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/rad"
+                    android:textColor="@color/mat_white"
+                    android:textSize="@dimen/text_land" />
+
+                <RadioButton
+                    android:id="@+id/mat_grad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/grad"
+                    android:textColor="@color/mat_white"
+                    android:textSize="@dimen/text_land" />
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/mat_solution"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|end"
+                android:maxLines="1"
+                android:textColor="@color/mat_white"
+                android:textSize="@dimen/text_solution_land" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="5">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mat_squared"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/squared" />
+
+                <Button
+                    android:id="@+id/mat_cubed"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/cubed" />
+
+                <Button
+                    android:id="@+id/mat_power"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/power" />
+
+                <Button
+                    android:id="@+id/mat_raised_to_minus1"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/raised_to_minus1" />
+
+                <Button
+                    android:id="@+id/mat_ac"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/ac" />
+
+                <Button
+                    android:id="@+id/mat_extra"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/percentage" />
+
+                <ImageButton
+                    android:id="@+id/mat_backspace"
+                    style="@style/Material.Grey.Land"
+                    android:src="@drawable/backspace_white"/>
+
+                <Button
+                    android:id="@+id/mat_division"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/division" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mat_root"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/root" />
+
+                <Button
+                    android:id="@+id/mat_cubed_root"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/cubed_root" />
+
+                <Button
+                    android:id="@+id/mat_random"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/random" />
+
+                <Button
+                    android:id="@+id/mat_factorial"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/factorial" />
+
+                <Button
+                    android:id="@+id/mat_n7"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n7" />
+
+                <Button
+                    android:id="@+id/mat_n8"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n8" />
+
+                <Button
+                    android:id="@+id/mat_n9"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n9" />
+
+                <Button
+                    android:id="@+id/mat_multiplier"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/multiplier" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mat_sin"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/sin" />
+
+                <Button
+                    android:id="@+id/mat_cos"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/cos" />
+
+                <Button
+                    android:id="@+id/mat_tan"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/tan" />
+
+                <Button
+                    android:id="@+id/mat_exp"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/exp" />
+
+                <Button
+                    android:id="@+id/mat_n4"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n4" />
+
+                <Button
+                    android:id="@+id/mat_n5"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n5" />
+
+                <Button
+                    android:id="@+id/mat_n6"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n6" />
+
+                <Button
+                    android:id="@+id/mat_minus"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/minus" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mat_sinh"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/sinh" />
+
+                <Button
+                    android:id="@+id/mat_cosh"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/cosh" />
+
+                <Button
+                    android:id="@+id/mat_tanh"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/tanh" />
+
+                <Button
+                    android:id="@+id/mat_log"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/log" />
+
+                <Button
+                    android:id="@+id/mat_n1"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n1" />
+
+                <Button
+                    android:id="@+id/mat_n2"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n2" />
+
+                <Button
+                    android:id="@+id/mat_n3"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n3" />
+
+                <Button
+                    android:id="@+id/mat_plus"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/plus" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/mat_pi"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/pi" />
+
+                <Button
+                    android:id="@+id/mat_ans"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/ans" />
+
+                <Button
+                    android:id="@+id/mat_e"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/e" />
+
+                <Button
+                    android:id="@+id/mat_ln"
+                    style="@style/Material.Darker.Land"
+                    android:text="@string/ln" />
+
+                <Button
+                    android:id="@+id/mat_n0"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/n0" />
+
+                <Button
+                    android:id="@+id/mat_comma"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/comma" />
+
+                <Button
+                    android:id="@+id/mat_parenthesis"
+                    style="@style/Material.Grey.Land"
+                    android:text="@string/parenthesis" />
+
+                <FrameLayout style="@style/Material.Darker">
+
+                    <com.melnykov.fab.FloatingActionButton
+                        android:id="@+id/mat_equal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:src="@drawable/text"
+                        fab:fab_colorNormal="@color/mat_blue"
+                        fab:fab_colorPressed="@color/mat_blue_darker"
+                        fab:fab_colorRipple="@color/mat_blue_ripple"
+                        fab:fab_type="mini"/>
+
+                </FrameLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="5dp"
+            android:background="@drawable/shadow"/>
+
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,73 @@
+<?xflat version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Flat" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:longClickable">true</item>
+        <item name="android:textSize">@dimen/text_edit</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="Flat.Red">
+        <item name="android:background">@drawable/flat_red_elements</item>
+    </style>
+
+    <style name="Flat.Red.Standard">
+        <item name="android:textColor">@color/flat_dark</item>
+    </style>
+
+    <style name="Flat.Red.Standard.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Flat.Red.Colored">
+        <item name="android:textColor">@color/flat_red</item>
+    </style>
+
+    <style name="Flat.Red.Colored.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Flat.Blue">
+        <item name="android:background">@drawable/flat_blue_elements</item>
+    </style>
+
+    <style name="Flat.Blue.Standard">
+        <item name="android:textColor">@color/flat_dark</item>
+    </style>
+
+    <style name="Flat.Blue.Standard.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Flat.Blue.Colored">
+        <item name="android:textColor">@color/flat_blue</item>
+    </style>
+
+    <style name="Flat.Blue.Colored.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Flat.Green">
+        <item name="android:background">@drawable/flat_green_elements</item>
+    </style>
+
+    <style name="Flat.Green.Standard">
+        <item name="android:textColor">@color/flat_dark</item>
+    </style>
+
+    <style name="Flat.Green.Standard.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+    <style name="Flat.Green.Colored">
+        <item name="android:textColor">@color/flat_green</item>
+    </style>
+
+    <style name="Flat.Green.Colored.Land">
+        <item name="android:textSize">@dimen/text_land</item>
+    </style>
+
+</resources>

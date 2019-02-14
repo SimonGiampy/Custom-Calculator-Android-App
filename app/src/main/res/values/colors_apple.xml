@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="apple_sign">#F98412</color>
+    <color name="apple_sign_pressed">#d7700c</color>
+    <color name="apple_numbers">#CACCCF</color>
+    <color name="apple_numbers_pressed">#abadb1</color>
+    <color name="apple_symbols">#BCBEC1</color>
+    <color name="apple_symbols_pressed">#8c8c8c</color>
+
+    <color name="apple_black">#222222</color>
+    <color name="apple_white">#f5f5f5</color>
+
+    <color name="apple_primary">#222222</color>
+    <color name="apple_primarydark">#222222</color>
+    <color name="apple_accent">#d84315</color>
+
+</resources>

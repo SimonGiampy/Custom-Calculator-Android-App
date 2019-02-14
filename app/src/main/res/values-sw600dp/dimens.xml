@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources> <!--dimensions for large screen sizes, 7" screens and over-->
+    <dimen name="activity_margin">18dp</dimen>
+
+    <dimen name="text_edit">45sp</dimen>
+    <dimen name="height_edit">95sp</dimen>
+    <dimen name="text_solution">40sp</dimen>
+    <dimen name="margin_left">27dp</dimen>
+    <dimen name="margin_top">7dp</dimen>
+    <dimen name="text_solution_land">35sp</dimen>
+    <dimen name="text_land">25sp</dimen>
+    <dimen name="text_edit_land">40sp</dimen>
+    <dimen name="radius">22dp</dimen>
+    <dimen name="margin_left_land">15dp</dimen>
+    <dimen name="margin_left2_land">20dp</dimen>
+</resources>

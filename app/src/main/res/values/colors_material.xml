@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="mat_grey">#394349</color>
+    <color name="mat_grey_pressed">#272d31</color>
+    <color name="mat_darker">#313739</color>
+    <color name="mat_darker_pressed">#1f2223</color>
+    <color name="mat_white">#f5f5f5</color>
+    <color name="mat_white_pressed">#dadada</color>
+    <color name="mat_blue">#01579b</color>
+    <color name="mat_blue_darker">#00457b</color>
+    <color name="mat_blue_ripple">#003a68</color>
+</resources>

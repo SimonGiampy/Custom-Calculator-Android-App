@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">Impostazioni</string>
+
+    <string-array name="thousands_separator_list_entries">
+        <item>Stile Inglese: ###,###.##</item>
+        <item>Stile Tedesco: ###.###,##</item>
+        <item>Stile Francese: ### ###,##</item>
+    </string-array>
+
+    <string-array name="thousands_separator_list_values">
+        <item>US</item>
+        <item>DE</item>
+        <item>FR</item>
+    </string-array>
+
+    <string name="digits_limit">Il numero delle cifre eccede il limite consentito</string>
+    <string name="too_long">Numero troppo lungo!</string>
+    <string name="random_absent">Compila tutti i campi</string>
+    <string name="thousands_separator">Separatore delle migliaia</string>
+    <string name="thousands_summary">Abilitare la separazione delle migliaia per i numeri</string>
+    <string name="thousands_style">Stile della separazione delle migliaia</string>
+    <string name="thousands_type">Scegli il tipo della separazione delle migliaia (il carattere "#" rappresenta una cifra)</string>
+    <string name="sqrt">Radice quadrata</string>
+    <string name="enable_sqrt">Abilitare il pulsante della radice quadrata al posto di quello della percentuale nella calcolatrice verticale</string>
+    <string name="info">Informazioni</string>
+    <string name="about">Riguardo l\'App</string>
+    <string name="style_list">Stile</string>
+    <string name="thousands_style_de">Stile tedesco selezionato (###.###,###)</string>
+    <string name="thousands_style_us">Stile inglese selezionato (###,###.###)</string>
+    <string name="thousands_style_fr">Stile francese selezionato (### ###,###)</string>
+    <string name="version">Custom Calculator, versione %s, autore: Simon Giampy</string>
+    <string name="pref_disabled">Formattazione delle migliaia disabilitata</string>
+
+</resources>
