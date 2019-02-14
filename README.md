@@ -1,5 +1,8 @@
 # Simon CustomCalculator
 
+Download it here!
+https://play.google.com/store/apps/details?id=giampy.simon.customcalculator&hl=en
+
 This is the app I made in 2016. It took me months for learning how to program Android applications using the official tool Android Studio. I learned everything by myself, so I'm a self-taught person. It took my a long time to create this app despite being a "simple" calculator.
 
 I named it like this so it can be easily found as the first result when searching for it.
